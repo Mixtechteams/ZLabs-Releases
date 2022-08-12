@@ -11,7 +11,7 @@
 
 ### Linux DEB (Astra, Debian, Ubuntu)
 - скачать файл Zlabs.deb
-- скачать архив requirements.tar.gz
+- скачать файл requirements.tar.gz
 - открыть терминал в папке, куда скачались файлы (обычно это папка `Загрузки`) (Для Astra linux в папке нажать сверху `справка`/`открыть терминал`)
 - введите в терминале `tar xzf requirements.tar.gz` чтобы распаковать архив **или** распакуйте его вручную в ту же папку
 - введите в терминале `sudo bash ./requirements/install_deb.sh ZLabs.deb` и введите пароль если потребуется. (Пароль не видно)
@@ -19,7 +19,7 @@
 
 ### Linux RPM (Alt, Fedora...)
 - скачать файл Zlabs.rpm
-- скачать архив requirements.tar.gz
+- скачать файл requirements.tar.gz
 - открыть терминал в папке, куда скачались файлы (обычно это папка `Загрузки`) (Для Astra linux в папке нажать сверху `справка`/`открыть терминал`)
 - введите в терминале `tar xzf requirements.tar.gz` чтобы распаковать архив **или** распакуйте его вручную в ту же папку
 - введите в терминале `sudo bash ./requirements/install_rpm.sh ZLabs.rpm`
