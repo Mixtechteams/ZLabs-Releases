@@ -5,29 +5,17 @@
 
 ## Инструкция по установке
 ### MacOS
-- скачать файл с именем MacOS.tar.gz
+- скачать файл с именем [ZLabs.dmg](https://github.com/Mixtechteams/ZLabs-Releases/releases/latest/download/ZLabs.dmg)
 - нажать 2 раза по этому файлу, появится приложение с именем ZLabs в той же папке
 - это приложение переместить в папку Applications
 
-### Linux DEB (Astra, Debian, Ubuntu)
-- скачать файл Zlabs.deb
-- скачать файл requirements.tar.gz
-- открыть терминал в папке, куда скачались файлы (обычно это папка `Загрузки`) (Для Astra linux в папке нажать сверху `сервис`/`открыть терминал`)
-- введите в терминале `tar xzf requirements.tar.gz` чтобы распаковать архив **или** распакуйте его вручную в ту же папку
-- введите в терминале `sudo bash ./requirements/install_deb.sh ./ZLabs.deb` и введите пароль если потребуется. (Пароль не видно)
-- если в конце установи не было сообщения "Произошла ошибка установки", то установка прошла успешно, можете закрыть терминал и найти программу ZLabs в меню приложений (Пуск)
-- перезагрузите компьютер, это важно
-
-### Linux RPM (Alt, Fedora...)
-- скачать файл Zlabs.rpm
-- скачать файл requirements.tar.gz
-- открыть терминал в папке, куда скачались файлы (обычно это папка `Загрузки`)
-- введите в терминале `tar xzf requirements.tar.gz` чтобы распаковать архив **или** распакуйте его вручную в ту же папку
-- введите в терминале `su root -c './requirements/install_rpm.sh ./ZLabs.rpm'`
-- если в конце установи не было сообщения "Произошла ошибка установки", то установка прошла успешно, можете закрыть терминал и найти программу ZLabs в меню приложений (Пуск)
-- перезагрузите компьютер, это важно
-
 ### Windows
-- скачайте и запустите файл Zlabs.exe
+- скачайте и запустите файл [ZLabs.exe](https://github.com/Mixtechteams/ZLabs-Releases/releases/latest/download/ZLabs.exe)
 - при появлении синего экрана нажмите `Подробнее`, появится кнопка `Выполнить в любом случае`, нажмте ее.
 - следуйте инструкции по установке
+
+### Для установки на любой Linux инструкция находится в скачанном архиве.
+- Для Ubuntu/Debian/Astra нужно скачать [deb.tar.gz](https://github.com/Mixtechteams/ZLabs-Releases/releases/latest/download/deb.tar.gz)
+- Для Alt нужно скачать [rpm.tar.gz](https://github.com/Mixtechteams/ZLabs-Releases/releases/latest/download/rpm.tar.gz)
+- Для RedOS нужно скачать [redos.tar.gz](https://github.com/Mixtechteams/ZLabs-Releases/releases/latest/download/redos.tar.gz)
+- Для AlterOS нужно скачать [alteros.tar.gz](https://github.com/Mixtechteams/ZLabs-Releases/releases/latest/download/alteros.tar.gz)
